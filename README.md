@@ -20,6 +20,15 @@
   <li>Manage purchaseBill</li>
 </ul>
 
+## ⚡ Technologies
+
+* Windows Form application
+* Entity Framework
+* SQLServer For Database
+* Analysis 
+
+  
+
 ## 📱 Screenshots 
 
 ![1](https://github.com/ManarIsmail/Windows-form-application-for-managing-sales-SuperMarket-/assets/138307013/57b86490-ab0e-4ac1-b4a3-cdf6e71ecf4c)
