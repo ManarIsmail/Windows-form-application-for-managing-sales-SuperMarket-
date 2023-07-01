@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f96e34c280f044f29db8aaa166662787" Name="Diagram1">
+        <EntityTypeShape EntityType="POSTutModel.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Product" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Supplier" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.User" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Category" Width="1.5" PointX="3.375" PointY="4.75" />
+        <EntityTypeShape EntityType="POSTutModel.sysdiagram" Width="1.5" PointX="5.375" PointY="4.75" />
+        <AssociationConnector Association="POSTutModel.FK_Product_Category" />
+        <EntityTypeShape EntityType="POSTutModel.SalesBill" Width="1.5" PointX="2.75" PointY="7.375" />
+        <EntityTypeShape EntityType="POSTutModel.SalesBillDetail" Width="1.5" PointX="5.25" PointY="8" />
+        <AssociationConnector Association="POSTutModel.FK_SalesBill_Customer" />
+        <AssociationConnector Association="POSTutModel.FK_SalesBillDetails_SalesBill" />
+        <AssociationConnector Association="POSTutModel.FK_SalesBill_Users" />
+        <AssociationConnector Association="POSTutModel.FK_SalesBillDetails_Product" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
